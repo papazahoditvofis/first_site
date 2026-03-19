@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    font-family:'Courier New', Courier, monospace;
+    color:chartreuse;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    font-size: 200%;
+}
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size:large;
+    font-weight: lighter;
+}
+html,body {
+    height:100%;
+}
+header,main,footer {
+    border:black solid 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 140%;
+}
+#wrapper{
+    min-height:100%;
+    height:auto !important;
+    height: 100%;
+    width: 100%;
+}
+header{
+    height: 150px;
+    width: 1040px;
+    margin: 0 auto;
+    border:none;
+}
+main{
+    padding: bottom 100px;
+    width: 1040px;
+    margin: 0 auto;
+    border:none;
+}
+footer{
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    width: 1040px;
+    border:none;
+}
+body{
+    background-color: rgb(58, 97, 70);
+    color: #FFFEF4;
+}
+.main__img-float{
+    width: 350px;
+    margin-right: 40px;
+    float:left;
+    box-shadow: black; size: 50 px;
+    border: #FFFEF4; size: 20 px;
+    border-radius: 50px;
+}
+#panorama{
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; height: 150px;
+}
+.services_img{
+    width: 240px;
+    background-size: cover; height: 210px;
+    box-shadow: black; size: 50 px;
+    border: #FFFEF4; size: 20 px;
+    border-radius: 50px;
+}
+.services__item{
+    margin: 40px;
+    width: 240px;
+    float: left;
+}
+.services{
+    padding: 35px;
+    border: 5px;
+}
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.h1_invisible{
+    visibility: hidden;
+}
+#onas{
+    width: 100%;
+    height: 100%;
+}
+.onas_text{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 60%;
+}
+.onas_moment{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     box-shadow: black; size: 50 px;
+    border: #FFFEF4; size: 20 px;
+    border-radius: 50px;
+}
+.cont_text{
+     text-align: center;
+     line-height: 50px;
+}
+#cont{
+    width: 100%;
+    height: 100%;
+}
+.clien_img{
+    width: 240px;
+    background-size: cover; height: 270px;
+    box-shadow: black; size: 50 px;
+    border: #FFFEF4; size: 20 px;
+    border-radius: 50px;
+}
+.clien_text{
+    text-align: center;
+}
+.clien_item1{
+    margin: 40px;
+    width: 240px;
+    float: left;
+}
+.clien_item2{
+    margin: 40px;
+    width: 240px;
+    float: right;
+}
+.sound{
+    text-align: center;
+    line-height: 50px;
+}
+.sosound{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+}
+.yellow{
+    color: chartreuse;
+}
+.footer_block{
+    display: inline-block;
+    width: 335px;
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 550;
+}
+.footer_icons{
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+    margin-left: 10px;
+}
+.footer_img{
+    width: 50px;
+}
+.red{
+    color:forestgreen;
+}
