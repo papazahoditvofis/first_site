@@ -91,7 +91,7 @@ body{
     padding: 35px;
     border: 5px;
 }
-.clearfix::after{
+.clearfix{
     content:"";
     display: table;
     clear: both;
@@ -185,4 +185,28 @@ body{
 }
 .red{
     color:forestgreen;
+}
+#logo{
+    float:left;
+}
+#mainav ul{
+    list-style: none;
+    margin-top: 90px;
+    padding-left: 0;
+}
+#mainnav li{
+    display:inline;
+}
+#mainnav a {
+    text-decoration: none;
+    font-family: "Marck Script", cursive;
+    font-size: 30px;
+    margin: 20px;
+    margin-left: 50px;
+}
+#mainnav a:hover{
+    text-decoration: underline;
+}
+#mainnav li.active a{
+    font-weight: bold;
 }
